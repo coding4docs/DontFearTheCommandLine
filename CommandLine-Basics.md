@@ -59,6 +59,11 @@ The `cd ..`  command takes you up one directory in the directory path.
   cd ..
 ```
 
+The `clear` command clears the terminal window. Scrolling up will show the text you had just cleared, by the way.
+
+```bash
+  cd ..
+```
 ### Keyboard Commands for Terminal Navigation
 
 Here are a few keyboard commands that I find helpful:
