@@ -15,6 +15,22 @@ The `ls` command lists the files and dirctories in the current directory.
 ```bash
   ls
 ```
+By using `ls -l` you show a longer version of the directory's contents, including the file or directory's permissions, user and group, file size and date and time created.
+
+```bash
+  ls -l
+```
+You show the directory's hidden files (these start with a dot), with `ls -a`. Many configuration files are hidden this way.
+
+```bash
+  ls -a
+```
+
+You can use more than one flag with a given command. For example, if you want to see more info and view hidden files, you can use `ls -l -a` or shorten it to `ls -la`.
+
+```bash
+  ls -la
+```
 
 The `mkdir` command stands for "make dirctory" and creates a directory.
 
