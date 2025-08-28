@@ -59,6 +59,17 @@ The `cd ..`  command takes you up one directory in the directory path.
   cd ..
 ```
 
+The `rm` command stands for "remove" and deletes a file or directory. If you try to remove a directory that is not empty, you will get an error message. These items are competely removed from the system. You can't undelete.
+
+```bash
+  rm <FILE_OR_ DIRECTORY_NAME>
+```
+To delete a directory AND its contents, you all the `-r` flag to delete recursively. Be really careful with the `rm -r` command. Applied in the wrong directory, you can delete your whole system. Remember, you can't undelete.
+
+```bash
+  rm -r <FILE_OR_ DIRECTORY_NAME>
+```
+
 The `clear` command clears the terminal window. Scrolling up will show the text you had just cleared, by the way.
 
 ```bash
