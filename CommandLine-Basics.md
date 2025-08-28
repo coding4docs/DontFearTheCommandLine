@@ -32,12 +32,6 @@ You can use more than one flag with a given command. For example, if you want to
   ls -la
 ```
 
-The `mkdir` command stands for "make dirctory" and creates a directory.
-
-```bash
-  mkdir <DIRECTORY_NAME>
-```
-
 The `cd` command stands for "change directory" and changes your current directory to a different directory.
 
 ```bash
@@ -59,15 +53,38 @@ The `cd ..`  command takes you up one directory in the directory path.
   cd ..
 ```
 
+### Modifying Files and Directories
+
+The `mkdir` command stands for "make dirctory" and creates a directory.
+
+```bash
+  mkdir <DIRECTORY_NAME>
+```
+The `touch` command creates a new empty file or directory. (Think Sistine Chapel ceiling.)
+
+```bash
+  touch <FILE_OR_DIRECTORY_NAME>
+```
+The `cp` command copies a file or directory. You can rename the file at the same time. The old file stays in place.
+
+```bash
+  cp <FILE_OR_DIRECTORY_NAME> <NEW_FILE_AND/OR_DIRECTORY_NAME> 
+```
+Similarly, the `mv` command moves a file or directory. You can rename the file at the same time. The original file is no longer at the old location.
+
+```bash
+  mv <FILE_OR_DIRECTORY_NAME> <NEW_FILE_AND/OR_DIRECTORY_NAME> 
+```
+
 The `rm` command stands for "remove" and deletes a file or directory. If you try to remove a directory that is not empty, you will get an error message. These items are competely removed from the system. You can't undelete.
 
 ```bash
   rm <FILE_OR_ DIRECTORY_NAME>
 ```
-To delete a directory AND its contents, you all the `-r` flag to delete recursively. Be really careful with the `rm -r` command. Applied in the wrong directory, you can delete your whole system. Remember, you can't undelete.
+To delete a directory AND its contents, you all the `-rf` flag to delete recursively. Be really careful with the `rm -r` command. Applied in the wrong directory, you can delete your whole system. Remember, you can't undelete.
 
 ```bash
-  rm -r <FILE_OR_ DIRECTORY_NAME>
+  rm -rf <DIRECTORY_NAME>
 ```
 
 The `clear` command clears the terminal window. Scrolling up will show the text you had just cleared, by the way.
