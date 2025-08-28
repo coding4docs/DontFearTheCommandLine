@@ -73,7 +73,7 @@ To delete a directory AND its contents, you all the `-r` flag to delete recursiv
 The `clear` command clears the terminal window. Scrolling up will show the text you had just cleared, by the way.
 
 ```bash
-  cd ..
+  clear
 ```
 ### Keyboard Commands for Terminal Navigation
 
