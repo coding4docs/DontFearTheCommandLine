@@ -8,6 +8,7 @@
 https://github.com/coding4docs/DontFearTheCommandLine/blob/main/WSL%20Setup%20-%20Coding4Docs.pdf
 
 #### Command Line Cheat Sheet
+CommandLine-Basics.md
 
 
 Copyright 2025 Softcode Systems, LLC. All rights reserved.
