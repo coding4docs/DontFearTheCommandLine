@@ -92,6 +92,20 @@ The `clear` command clears the terminal window. Scrolling up will show the text 
 ```bash
   clear
 ```
+
+### The `nano` Editor
+
+The `nano` command opens a text editor program that is pre-installed by default on most Linux distributions. I find this is really helpful for editing configuration files.
+
+You can open and edit an existing file or create a new file and open it with:
+
+```bash
+  nano <FILENAME>
+```
+- `Ctrl + O`: "Writes Out" or saves the file changes you have made. You have the option of keeping the file name, or renaming it.
+- `Ctrl + X`: Exits nano and returns you back to the command line.
+  
+
 ### Keyboard Commands for Terminal Navigation
 
 Here are a few keyboard commands that I find helpful:
